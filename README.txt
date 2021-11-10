@@ -1,4 +1,8 @@
 ﻿Readme:
+ 
+The purpose of this project is to create a tool for public education by showing the real impact of Covid-19 vaccination on local communities, and allow for a personalized risk assessment based on demographic factors. This project utilizes CDC datasets comparing vaccine allocations against current case totals. It also extrapolates based on the user input age, and current vaccination level of their county, or lets them type their own vaccination rate to see what the estimated covid-19 risk would be based on that. It outputs visualizations, graphs and a statistical summary all generated on demand, and is very easily updated by simply downloading the newest CDC dataset as it is continuously updated.
+
+Detailed results, analysis and writeup are available in the docs file attached, including screenshots.
 
 
 Library Installation:
@@ -37,16 +41,10 @@ pip install numpy
 Running the program:
 
 
-The easiest way to run the Jupyter Notebook would be to install VSCode, the open source IDE, from there you can use the search bar to download the Jupyter notebooks extensions directly. This IDE can be downloaded from: https://code.visualstudio.com/
+The easiest way to run the Jupyter Notebook would be to install using the command line. Instructions can be found on https://jupyter.org/.
 
 
-This is available for Mac Os, Windows or Linux
-
-
-Once the IDE and Jupyter notebook extension are installed and VSCode is running you may press ctrl + shift + p to open the search menu, type “Jupyter Notebook”, start running a Jupyter Notebook, then load the workspace file included in the program files using the “open workspace in project” control in VSCode’s menu. 
-
-
-The Jupyter Notebook will be compatible with any Jupyter Notebook app, but you must ensure that the raw data is within the same directory folder as the code file.
+The Jupyter Notebook provided for this program will be compatible with any Jupyter Notebook app, but you must ensure that the raw data is within the same directory folder as the code file.
 
 
 From here, simply push the play button to the left of the code. Prompts will appear asking for input values for user age and vaccination rate for their local area. These require the user to type in numerals within the displayed ranges, then push enter. 
