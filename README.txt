@@ -1,6 +1,6 @@
 ﻿Readme:
  
-The purpose of this project is to create a tool for public education by showing the real impact of Covid-19 vaccination on local communities, and allow for a personalized risk assessment based on demographic factors. This project utilizes CDC datasets comparing vaccine allocations against current case totals. It also extrapolates based on the user input age, and current vaccination level of their county, or lets them type their own vaccination rate to see what the estimated covid-19 risk would be based on that. It outputs visualizations, graphs and a statistical summary all generated on demand, and is very easily updated by simply downloading the newest CDC dataset as it is continuously updated.
+The purpose of this project is to create an open source tool for public education showing the real impact of Covid-19 vaccination on local communities, and allow for a personalized risk assessment based on demographic factors. This project utilizes CDC datasets comparing vaccine allocations against current case totals. It also extrapolates based on the user input age, and current vaccination level of their county, or lets them type their own vaccination rate to see what the estimated covid-19 risk would be based on that. It outputs visualizations, graphs and a statistical summary all generated on demand, and is very easily updated by simply downloading the newest CDC dataset as it is continuously updated.
 
 Detailed results, analysis and writeup are available in the docs file attached, including screenshots.
 
@@ -8,7 +8,7 @@ Detailed results, analysis and writeup are available in the docs file attached, 
 Library Installation:
 
 
-Below are the terminal commands used to install each necessary Python library. Python3 and Pip must be installed and up to date as well. Instructions for installing Python and pip can be found on Python.org. The OS library loaded in the program comes pre-installed with python. 
+Below are the terminal commands used to install each necessary Python library. These are all fairly standard for data science and machine learning. Python3 and Pip must be installed and up to date as well. Instructions for installing Python and pip can be found on Python.org. The OS library loaded in the program comes pre-installed with python. 
 
 
 Pandas:
